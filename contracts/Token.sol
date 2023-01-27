@@ -3,7 +3,7 @@ pragma solidity 0.8.17;
 contract Token {
     string public name = "Worst World Token";
     string public symbol = "WWT";
-    uint256 public totalSupply = 10000;
+    uint256 public totalSupply = 1000000;
     address public owner;
     mapping(address => uint256) balances;
     event Transfer(address indexed _from , address indexed _to,uint256 _value);
